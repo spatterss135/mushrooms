@@ -1,0 +1,52 @@
+* {
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+a {
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #f0c792;   
+}
+
+#TopOfPage {
+    height:100%;
+}
+
+#TopOfPage .background-image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#NavBar {
+    background: linear-gradient(green, white);
+    height: 45px;
+    margin:0%;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
+
+#NavBar .Button{
+    border: 1px black solid;
+    background: linear-gradient(white, green);
+    float: left;
+    width: 7%;
+    margin-left: 19%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px; 
+    
+}
+
+
+
+#NavBar .Button :hover{
+    background: linear-gradient(white, red);
+}
