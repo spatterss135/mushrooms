@@ -5,48 +5,71 @@
 }
 a {
     text-decoration: none;
+    background: linear-gradient(white, green);
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    width: 5%;
+    /* margin-left: 21%; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px black solid;
+    text-align: center;
 
+
+}
+a:hover  {
+    background: linear-gradient(white, red);
 }
 
 body {
     background-color: #f0c792;   
 }
-
-#TopOfPage {
-    height:100%;
+h1 {
+    background: none;
 }
 
-#TopOfPage .background-image{
+
+
+#TopOfPage {
+    position: relative;
+    height:100%;
+    text-align: center;
+}
+.message {
+    position: absolute;
+    top:10%;
+    left: 3%;
+    font-size: 4em;
+}
+
+.background-image{
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
+
 }
 
 #NavBar {
     background: linear-gradient(green, white);
     height: 45px;
-    margin:0%;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#NavBar .Button{
-    border: 1px black solid;
-    background: linear-gradient(white, green);
-    float: left;
-    width: 7%;
-    margin-left: 19%;
-    margin-top: 10px;
-    text-align: center;
-    text-decoration: none;
-    padding: 5px; 
-    
+#chanterelle {
+    padding-right: 15px;
+    padding-left: 10px;
 }
 
 
 
-#NavBar .Button :hover{
-    background: linear-gradient(white, red);
-}
+
+
+
